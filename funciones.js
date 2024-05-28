@@ -15,6 +15,7 @@ sendBtn.addEventListener('click', () => {
     message.textContent = userInput;
     //chatLog.appendChild(message);
     chatInput.value = '';
+    chatContainer.style.display = 'none';
   }
 });
 
