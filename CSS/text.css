@@ -1,0 +1,39 @@
+:root{
+    --blanco: #FFFFFF;
+    --blanco2: #FFFFFFE0;
+    --Azul_ft: #009CB8;
+    --Azul_ft2: #009cb8e0;
+    --negro:#000000 ;
+
+}
+
+.text_box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--Azul_ft2);
+    padding: 20px;
+    border: 1px solid var(--negro) ;
+    border-radius: 2rem;
+    display: none;
+  }
+
+  .text_box h2{
+    color: var(--blanco);
+  }
+  
+  .chat{
+    background-color: var(--blanco2);
+    width: 15rem;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 2px;
+  }
+
+#enviar{
+    margin-top: 1rem;
+    background-color: var(--blanco);
+    color: var(--Azul_ft);
+}
